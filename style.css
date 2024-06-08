@@ -34,7 +34,7 @@
    border-top-color:red;
    border-top-right-radius: 25px ;
   } */
- body{
+ /* body{
   border: 1px solid red;
   height: 1000px;
  }
@@ -45,4 +45,13 @@
     min-width: 1000px;
     min-height:  300px;  ;
     
-  }
+  } */
+
+  /* #div1{
+   border: 1px solid red;
+   padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 40%; 
+    padding: 25px 5px 70px 56%;
+  } */

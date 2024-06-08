@@ -11,15 +11,26 @@
   }
   #h{
     font-size: 50p  x ;
-  } */
+  }
 
    #bg {
     background-color:yellow;
-    background-image: url('images/pexels-todd-trapani-488382-1420440.jpg'), url('images/music-player-2951399_1280.jpg');
+    background-image: url('images/pexels-todd-trapani-488382-1420440.jpg'), url('images/music-player-2951399_1280.jpg'); 
     background-repeat:  no-repeat;
     background-position: left top,right bottom;
    
    }
-   /* body {
+    body {
     background-color: yellow;
-   } */
+   }  */
+
+   #border{
+    /* border-style:solid dashed dotted double;
+    border-width: 5px 1px 7px 2px;
+    border-color: blue red yellow green; */
+   border: 5px solid green ;
+   /* border-top-style:solid ;
+   border-top-width: 10px;
+   border-top-color:red; */
+   border-top-right-radius: 25px ;
+  }

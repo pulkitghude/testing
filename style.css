@@ -1,4 +1,4 @@
- p{
+ /* p{
     color:red;
  }
  
@@ -11,6 +11,15 @@
   }
   #h{
     font-size: 50p  x ;
-  }
+  } */
 
+   #bg {
+    background-color:yellow;
+    background-image: url('images/pexels-todd-trapani-488382-1420440.jpg'), url('images/music-player-2951399_1280.jpg');
+    background-repeat:  no-repeat;
+    background-position: left top,right bottom;
    
+   }
+   /* body {
+    background-color: yellow;
+   } */

@@ -24,13 +24,25 @@
     background-color: yellow;
    }  */
 
-   #border{
-    /* border-style:solid dashed dotted double;
+   /* #border{
+    border-style:solid dashed dotted double;
     border-width: 5px 1px 7px 2px;
-    border-color: blue red yellow green; */
+    border-color: blue red yellow green;
    border: 5px solid green ;
-   /* border-top-style:solid ;
+   border-top-style:solid ;
    border-top-width: 10px;
-   border-top-color:red; */
+   border-top-color:red;
    border-top-right-radius: 25px ;
+  } */
+ body{
+  border: 1px solid red;
+  height: 1000px;
+ }
+  #div1{
+    background-color: yellow;
+    height: 50% ;
+    width: 70%;
+    min-width: 1000px;
+    min-height:  300px;  ;
+    
   }

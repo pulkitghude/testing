@@ -127,20 +127,22 @@ color: gray;
   font-variant: small-caps; 
 
  }*/
- html{
+ /*html{
   font-size: 14px;
  }
 #parent{
-/* border: 1px solid red;
+/border: 1px solid red;
 height: 50vh;
-width: 50vw; */
+width: 50vw; 
 font-size: 4rem;
 }
 #child{
   font-size: 2rem;
-  /* border: 1px solid gold ;
-  width: 50%; */
-
-
-}
+  border: 1px solid gold ;
+  width: 50%; 
+}*/
+/* div{
+  border: 1px solid red;
+  cursor:  zoom-in;
+} */
 

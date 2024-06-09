@@ -23,7 +23,6 @@
     body {
     background-color: yellow;
    }  */
-
    /* #border{
     border-style:solid dashed dotted double;
     border-width: 5px 1px 7px 2px;
@@ -46,7 +45,6 @@
     min-height:  300px;  ;
     
   } */
-
   /* .div1{
    border: 1px solid red;
     padding-top: 50px;
@@ -56,11 +54,7 @@
 
    padding: 25px 50px 30px 70px;
   } */
-
- /* body {
-  border:  10px dotted yellow;
- }
- #marg{
+ /* #marg{
 
   margin-top: 15px;
   margin-bottom: 25px;
@@ -69,11 +63,11 @@
   width: 200px; 
   margin: 20px auto; 
  } */
- #text{
+ /*#text{
   width: 500px;
   height: 300px;
   border: 1px solid green;
-  /* color: violet;
+  color: violet;
   text-align: justify; 
    direction: rtl
    text-decoration: line-through; 
@@ -83,10 +77,10 @@
    letter-spacing: 2px;
   word-spacing: 5px; 
   white-space: nowrap;
-  word-wrap: break-word;*/
-  writing-mode: vertical-rl;
+  word-wrap: break-word;
+  writing-mode: vertical-rl; 
 
- }
+ }*/
  /* #shadow {
   font-size: 80px;
   text-shadow: 5px -10px 8px red;
@@ -96,4 +90,22 @@
   vertical-align: middle;
 
  } */
+
+ a{
+  text-decoration: none;
+ }
+
+  a:link{
+ color: yellowgreen;
+ }
+ 
+ a:visited{
+color:red;
+ }
+ a:hover{
+color: gray;
+ }
+ a:active{
+    color: blue;
+ } 
 

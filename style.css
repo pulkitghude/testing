@@ -107,25 +107,40 @@ color: gray;
  }
  a:active{
     color: blue;
- }  */
+ }  
  @font-face{
   font-family:  abc ;
   src: url('fonts/Quick\ Delight.otf');
 } 
  h1{
   font-family:  abc;
-  /* font-size: 50px;
+  font-size: 50px;
   font-weight: 100;
-  font-family: 'Roboto Mono',sans-serif ; */
+  font-family: 'Roboto Mono',sans-serif ; 
 
  }
  p{
   font-family: abc , 'roboto mono', sans-serif;
-  /* font-size: 30px;
+   font-size: 30px;
   font-weight: regular;
   font-style: italic;
-  font-variant: small-caps; */
+  font-variant: small-caps; 
 
+ }*/
+ html{
+  font-size: 14px;
  }
+#parent{
+/* border: 1px solid red;
+height: 50vh;
+width: 50vw; */
+font-size: 4rem;
+}
+#child{
+  font-size: 2rem;
+  /* border: 1px solid gold ;
+  width: 50%; */
 
+
+}
 

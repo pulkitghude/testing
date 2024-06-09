@@ -91,7 +91,7 @@
 
  } */
 
- a{
+ /* a{
   text-decoration: none;
  }
 
@@ -107,5 +107,25 @@ color: gray;
  }
  a:active{
     color: blue;
- } 
+ }  */
+ @font-face{
+  font-family:  abc ;
+  src: url('fonts/Quick\ Delight.otf');
+} 
+ h1{
+  font-family:  abc;
+  /* font-size: 50px;
+  font-weight: 100;
+  font-family: 'Roboto Mono',sans-serif ; */
+
+ }
+ p{
+  font-family: abc , 'roboto mono', sans-serif;
+  /* font-size: 30px;
+  font-weight: regular;
+  font-style: italic;
+  font-variant: small-caps; */
+
+ }
+
 

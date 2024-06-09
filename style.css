@@ -47,11 +47,32 @@
     
   } */
 
-  /* #div1{
+  .div1{
    border: 1px solid red;
-   padding-top: 50px;
+   /* padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 25px;
-    padding-right: 40%; 
-    padding: 25px 5px 70px 56%;
-  } */
+    padding-right: 40%;  */
+
+   padding: 25px 50px 30px 70px;
+  }
+
+ /* body {
+  border:  10px dotted yellow;
+ }
+ #marg{
+
+   margin-top: 15px;
+  margin-bottom: 25px;
+  margin-right: 50px;
+  margin-left: 70px;  
+  width: 200px;
+  margin: 20px auto; 
+ } */
+ #colsp{
+  margin-bottom: 50px;
+
+ }
+ #marg{
+  margin-top: 50px;
+ }

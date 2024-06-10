@@ -145,4 +145,10 @@ font-size: 4rem;
   border: 1px solid red;
   cursor:  zoom-in;
 } */
+ div{
+  border: 1px solid red !important;
+ }
+ div{
+  border: 1px solid green;
+ }
 

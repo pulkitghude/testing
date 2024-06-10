@@ -146,9 +146,11 @@ font-size: 4rem;
   cursor:  zoom-in;
 } */
  div{
-  border: 1px solid red !important;
+  border: 1px solid yellowgreen;
+  width: 500px;
+  background-color:  blueviolet;
+  margin: 100px;
+  padding: 20px;
+  box-shadow: 10px 15px  15px 3px gray , -10px 5px 5px 2px red ;
  }
- div{
-  border: 1px solid green;
- }
-
+ 

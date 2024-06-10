@@ -178,8 +178,16 @@ font-size: 4rem;
    background-repeat: no-repeat;
    background-position: 10px -300px;
  }*/
- #div1{
+/* #div1{
   height: 500px;
   border: 1px solid gray ;
   background-image: radial-gradient(circle,green 50%,blue,red);
- }
+ */
+ #overflow{
+  background-color: whitesmoke;
+  border: 1px solid gray;
+  width: 500px;
+  height: 300px;
+  
+  overflow: auto; 
+}

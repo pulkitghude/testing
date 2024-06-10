@@ -189,5 +189,6 @@ font-size: 4rem;
   width: 500px;
   height: 300px;
   
-  overflow: auto; 
+  overflow: auto;
+  resize: horizontal; 
 }

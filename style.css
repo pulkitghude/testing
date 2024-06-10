@@ -170,11 +170,16 @@ font-size: 4rem;
  }
  img{
   filter: brightness(20%),contrast(10%);
- }*/
+ }
  #sprite{
   height: 100px;
   width: 150px;
   background-image: url(images/main-qimg-4232dfe090ed28245c91e8f17f74a792-pjlq.jpg);
    background-repeat: no-repeat;
    background-position: 10px -300px;
+ }*/
+ #div1{
+  height: 500px;
+  border: 1px solid gray ;
+  background-image: radial-gradient(circle,green 50%,blue,red);
  }

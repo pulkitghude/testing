@@ -203,7 +203,7 @@ list-style-type: ;
 li{
   border: 1px solid red;
 }*/
- table{
+ /*table{
   border: 1px solid blue;
   border-collapse:separate ;
   border-spacing: 15px;
@@ -227,4 +227,21 @@ li{
   height: 15px;
   padding: 25px;
   text-align: left;
+ }*/
+ :root{
+  --primay-color:teal;
+  --btn-color: blueviolet;
+  --text-color: red;
+ }
+ #fun{
+  background-color: var(--primay-color);
+  height: 200px;
+  width: calc(100% - 200px);
+ }
+ a{
+  padding: 10px 30px;
+  margin: 20px;
+  background-color: var(--btn-color);
+  color: white;
+  text-decoration: none;
  }

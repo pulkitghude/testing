@@ -183,7 +183,7 @@ font-size: 4rem;
   border: 1px solid gray ;
   background-image: radial-gradient(circle,green 50%,blue,red);
  */
- #overflow{
+ /* #overflow{
   background-color: whitesmoke;
   border: 1px solid gray;
   width: 500px;
@@ -191,4 +191,16 @@ font-size: 4rem;
   
   overflow: auto;
   resize: horizontal; 
+} */
+ul{
+/* list-style-type: square; */
+list-style-image: url('images/images.jpg');
+list-style-position: inside; 
+}
+
+ol{
+list-style-type: ;
+}
+li{
+  border: 1px solid red;
 }

@@ -258,7 +258,7 @@ padding: 50px;
 border: 10px solid black ;
 box-sizing: border-box;
  }*/
- #green
+ /*#green
 {
 color: green;
 }
@@ -270,4 +270,12 @@ color: initial;
 }
 #inherit{
 color: inherit;
+}*/
+img{
+  border: 1px solid red;
+  width: 500px;
+  height: 200px;
+  object-fit: contain;
+  object-position: top left;
 }
+  

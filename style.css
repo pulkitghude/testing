@@ -90,7 +90,6 @@
   vertical-align: middle;
 
  } */
-
  /* a{
   text-decoration: none;
  }
@@ -192,8 +191,8 @@ font-size: 4rem;
   overflow: auto;
   resize: horizontal; 
 } */
-ul{
-/* list-style-type: square; */
+/*ul{
+ list-style-type: square; 
 list-style-image: url('images/images.jpg');
 list-style-position: inside; 
 }
@@ -203,4 +202,29 @@ list-style-type: ;
 }
 li{
   border: 1px solid red;
-}
+}*/
+ table{
+  border: 1px solid blue;
+  border-collapse:separate ;
+  border-spacing: 15px;
+  caption-side: bottom;
+  empty-cells: hide;
+ }
+ caption{
+  border: 1px solid red;
+ }
+ tr{
+  border: 1px solid green;
+ }
+ th{
+  border: 1px solid green;
+  height: 20px;
+  padding: 15px;
+  text-align: right;
+ }
+ td{
+  border: 1px solid green;
+  height: 15px;
+  padding: 25px;
+  text-align: left;
+ }

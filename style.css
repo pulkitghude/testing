@@ -245,7 +245,7 @@ li{
   color: white;
   text-decoration: none;
  }*/
- #div1{
+ /*#div1{
 background-color: blueviolet;
 height: 600px;
 height: 200px;
@@ -257,4 +257,17 @@ height: 200px;
 padding: 50px;
 border: 10px solid black ;
 box-sizing: border-box;
- }
+ }*/
+ #green
+{
+color: green;
+}
+#blue{
+color: red;
+}
+#initial{
+color: initial;
+}
+#inherit{
+color: inherit;
+}

@@ -312,31 +312,39 @@ border: 3px solid red;
     height: 1000px;
    }
 #parent{
-border: 1px solid red;
+
 padding: 20px;
 width: 50%;
 margin: 100px;
 position: relative;
+
+
 }
 #one{
 width: 100px;
 height: 100px;
 background-color: yellow;
 display: inline-block;
-
+position: relative;
+z-index: 2;
 }
 #two{
   width: 100px;
   height: 100px;
   background-color: blue;
   display: inline-block;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
+  position: relative;
+  top: 50px;
+left: -50px;
+  z-index: 3;
 }
 #three{
   width: 100px;
   height: 100px;
   background-color: green;
   display: inline-block;
+  position: relative;
+  top: 100px;
+left: -100px;
+z-index: 1;
 }

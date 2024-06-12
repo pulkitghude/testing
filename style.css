@@ -282,7 +282,7 @@ color: inherit;
 /* input:focus{
 border: 3px solid red;
  }*/
- p::first-line{
+ /*p::first-line{
   font-size: 35px;
   color:red;
  }
@@ -296,4 +296,15 @@ border: 3px solid red;
   ::selection{
     color:red;
     background:yellow ;
+  }*/
+  .display{
+    border: 1px solid red;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+  }
+  #div1{
+   /* display: none;*/
+   visibility: hidden;
+   width: 500px;
   }

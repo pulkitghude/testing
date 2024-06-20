@@ -395,7 +395,7 @@ a:hover{
   transform: scaley(2);
   display: inline-block;
 } */
- #cover{
+ /*#cover{
 border:1px solid red ;
 height: 200px;
 width: 200px;
@@ -406,4 +406,19 @@ height: 200px;
 width: 200px;
 background-color: yellowgreen;
 transform: perspective(300px) translate3d(0px,0px,0px);
+ }*/
+ #div1{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  margin: 100px;
+  /*transition-property:all;
+  transition-duration: 500ms;*/
+
+  transition-timing-function:ease-in ;
+  transition: width 2s, height 3s;
  }
+ #div1:hover{
+height: 300px;
+width: 200px;
+ } 

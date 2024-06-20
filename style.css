@@ -374,12 +374,12 @@ li{
 img{
   float: right;
 }*/
-
+/*
 #rapper{
   padding: 20px;
   margin: 100px;
   background-color: yellow;
-  transform: matrix(1,0.2,0,1,0,0);
+  transform: matrix(1,  0.2,0,1,0,0);
 }
 a{
   text-decoration: none;
@@ -391,7 +391,19 @@ a{
   (),scaley(),tranlatex(),tranlatey(),);
 
 }
-/* a:hover{
+a:hover{
   transform: scaley(2);
   display: inline-block;
 } */
+ #cover{
+border:1px solid red ;
+height: 200px;
+width: 200px;
+margin: 150px;
+ }
+ #content{
+height: 200px;
+width: 200px;
+background-color: yellowgreen;
+transform: perspective(300px) translate3d(0px,0px,0px);
+ }

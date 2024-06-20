@@ -407,13 +407,13 @@ width: 200px;
 background-color: yellowgreen;
 transform: perspective(300px) translate3d(0px,0px,0px);
  }*/
- #div1{
+ /*#div1{
   height: 100px;
   width: 100px;
   background-color: red;
   margin: 100px;
-  /*transition-property:all;
-  transition-duration: 500ms;*/
+  transition-property:all;
+  transition-duration: 500ms;
 
   transition-timing-function:ease-in ;
   transition: width 2s, height 3s;
@@ -421,4 +421,38 @@ transform: perspective(300px) translate3d(0px,0px,0px);
  #div1:hover{
 height: 300px;
 width: 200px;
- } 
+ } */
+  @keyframes changecolor{
+    0%{background-color: red; border-radius: 0%;}
+    10%{background-color: yellow; border-radius: 10%;}
+    20%{background-color:green; border-radius: 20%;}
+    30%{background-color:blue; border-radius: 30%;}
+    40%{background-color: black; border-radius: 40%;}
+    50%{background-color: gray; border-radius: 50%;}
+    60%{background-color: rebeccapurple; border-radius: 40%;}
+    70%{background-color: brown; border-radius: 30%;}
+    80%{background-color: orange; border-radius: 20%;}
+    90%{background-color: olive; border-radius: 10%;}
+    100%{background-color: ghostwhite; border-radius: 0%;}
+  }
+
+
+  #animate{
+    background-color: red;
+    height: 300px;
+    width:300px ;
+    animation-name: changecolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  /* #animate2{
+    background-color: red;
+    height: 200px;
+    width:200px ;
+    animation-name: changecolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+  } */

@@ -474,7 +474,7 @@ width: 200px;
     width: 50%;
    }
   }*/
-  #div1{
+  /*#div1{
     width: 70%;
     float: left;
     background-color: lawngreen ;
@@ -513,5 +513,9 @@ width: 50%;
   }
   video{
     width: 100%;
-    height: auto;
-  }
+    height: auto  ;
+  }*/
+h1,p{
+   color: red; 
+}
+
